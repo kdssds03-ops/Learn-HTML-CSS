@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font style2</title>
+    <style>
+      .content {
+        border: 1px solid blue;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .article {
+        line-height: 2.2rem;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        text-indent: 80px;
+      }
+      .transform-case {
+        text-transform: lowercase;
+      }
+      .article > a {
+        text-decoration: none;
+      }
+      .text-shadow {
+        text-shadow: 2px 1px 5px red;
+      }
+      ul {
+        list-style: circle;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p class="content text-center">This is a paragraph with some text.</p>
+      <p class="content text-right">This is a paragraph with some text.</p>
+      <p class="content text-left">This is a paragraph with some text.</p>
+    </section>
+    <section>
+      <p class="article">
+        <span class="transform-case">Tempor</span> ipsum justo eos dolor et
+        sanctus. No gubergren vero diam dolor diam et clita, dolore et gubergren
+        rebum eos vero aliquyam duo clita justo, lorem eos est no dolor clita et
+        rebum dolores et, stet justo sea sanctus nonumy voluptua. Amet
+        consetetur sed kasd duo accusam dolor sea sit. Elitr vero nonumy vero
+        eos duo sadipscing justo ea. Tempor ut tempor dolor ipsum diam, dolores
+        sit dolore dolore justo est kasd dolores erat amet, consetetur
+        sadipscing sit lorem sed sanctus sit, et ipsum consetetur magna
+        sadipscing, elitr no et sadipscing magna, amet erat sea duo dolores. Sed
+        nonumy <a href="#">diam</a>.
+      </p>
+    </section>
+    <section>
+      <h2 class="text-shadow">text-shadow</h2>
+    </section>
+    <section>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+  </body>
+</html>
